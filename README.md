@@ -11,6 +11,7 @@ Radzen.Blazor の API を、クラス名・コンポーネント名・メンバ�
 - `Radzen` は省略できる（`DataGrid` → `RadzenDataGrid<TItem>`）
 - 大文字の頭文字でも探せる（`rdg` → `RadzenDataGrid`、`dp` → `RadzenDatePicker`）
 - `型名.メンバー名` でメンバーに直接飛べる（`DialogService.Open`、`DataGrid.AllowFiltering`）
+- 詳細画面の「公式リファレンス ↗」は、公式デモサイトの該当ページを開く（`RadzenButton` なら <https://blazor.radzen.com/button?theme=material>）。デモページが無い型には、代わりに「公式 API ドキュメント ↗」を出す
 - キーボード: `/` か `Ctrl+K` で検索欄、`↑` `↓` で結果を移動、`Enter` で開く、`Esc` で検索欄をクリア
 
 ## 出典とライセンス
